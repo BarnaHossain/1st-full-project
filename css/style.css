@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:monospace;
+    font-size:16px;
+}
+header{
+    padding-top: 30px;
+}
+header div.container{
+    width:1100px;
+    margin:0 auto;
+}
+div.row{
+    display:flex;
+}
+div.logo{
+    width:50%;
+    flex-basis:50%;
+    margin-right:20px;
+}
+div.menu{
+     width: 50%;
+    flex-basis:50%;
+    padding-top: 5px;
+}
+div.menu ul{
+    display:flex;
+    justify-content:flex-end;
+}
+div.menu ul li{
+    list-style-type: none;
+    padding-right:35px:
+}
+div.menu ul a{
+    text-decoration: none;
+    padding: 25px 50px;
+    color: #9A9A9A;
+}
+section.banner .container{
+    width:1100px;
+    margin:0px auto;
+    background-image:url("../images/banner.jpg");
+    padding-top: 20px;
+    height: 450px;
+    background-repeat:no-repeat;
+}
+section.banner{
+
+}
+div.container{
+    width:950px;
+    margin:0px auto;
+    text-align:justify;
+    padding-bottom:30px;
+    margin-top: 88px;
+}
+div.content h1{
+    margin-bottom:20px;
+    color: #9A9A9A;
+}
+div.content h2{
+     margin-bottom:20px;
+    font-size:22px;
+    color: #626262;
+}
+div.content p{
+    color: #626262;
+    margin-bottom:20px;
+}
+div.content span{
+    color: #9A9A9A;
+}
+div.blog div.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top:80px;
+}
+div.blog div.row div.blog1{
+    max-width:45%;
+    flex-basis:45%;
+    
+}
+div.blog div.row div.blog2{
+    max-width:45%;
+    flex-basis:45%;
+}
+div.blog div.row div.blog3{
+    max-width:45%;
+    flex-basis:45%;
+}
+div.blog div.row div.blog4{
+    max-width:45%;
+    flex-basis:45%;
+}
+div.blog div.row div.blog5{
+    max-width:45%;
+    flex-basis:45%;
+}
+div.blog div.row div.blog6{
+    max-width:45%;
+    flex-basis:45%;
+}
+div.blog p{
+    margin-top:20px;
+    color: #626262;
+}
+div.blog h2{
+    margin-top:20px;
+    font-size:22px;
+    color: #626262;
+}
+footer{
+    background-color: #F0F0F0;
+}
+footer .container{
+     height:80px;
+    
+}
+footer .row{
+    display:flex;
+}
+footer .footer-left{
+    max-width:80%;
+    flex-basis:80%;
+}
+footer .footer-left p{
+    margin-top:30px;
+    color: #606060;
+}
+footer .footer-right{
+    max-width:20%;
+    flex-basis:20%;
+    
+    
+}
+footer .footer-right i{
+    padding:10px 10px;
+    font-size:15px;
+    color: #626262;
+    margin-top:20px;
+}
